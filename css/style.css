@@ -1,9 +1,41 @@
-nav{
-  height: 80px;
-  background: #2C3E50;
+header{
   color: #fff;
 }
 
+nav{
+  height: 80px;
+  background: #2C3E50;
+}
+
 .jumbotron-custom{
-  background: #1ABC9C
+  background: #1ABC9C;
+  text-align: center;
+}
+
+.jumbotron-avatar{
+  width: 250px;
+  margin: 0 auto;
+}
+
+.jumbotron-avatar img{
+  width: 100%;
+}
+
+h1{
+  font-weight: bolder;
+}
+
+.fa.fa-star{
+  font-size: 30px;
+  display: inline-block;
+  width: auto;
+}
+
+.star::before, .star::after{
+  content: "";
+  display: inline-block;
+  width: 25%;
+  border-top: 4px solid #fff;
+  margin-bottom: 10px;
+  border-radius: 100px;
 }
