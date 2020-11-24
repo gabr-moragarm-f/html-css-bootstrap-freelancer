@@ -39,3 +39,19 @@ h1{
   margin-bottom: 10px;
   border-radius: 100px;
 }
+
+.top-main{
+  color: #2C3E50;
+}
+
+.top-main .star::before, .top-main .star::after{
+  border-top: 4px solid #2C3E50;
+}
+
+.top-main img{
+  width: 100%;
+}
+
+.top-main [class*="col-"]{
+  margin: 15px 0;
+}
