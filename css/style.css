@@ -1,15 +1,18 @@
-header{
+.color-white{
   color: #fff;
 }
 
-nav{
+.green-area{
+  background: #1ABC9C;
+}
+
+.gm-navbar{
   height: 80px;
   background: #2C3E50;
 }
 
-.jumbotron-custom{
-  background: #1ABC9C;
-  text-align: center;
+.gm-navbar .navbar-header .navbar-brand, .gm-navbar .nav > li > a{
+  line-height: 80px;
 }
 
 .jumbotron-avatar{
@@ -25,7 +28,7 @@ h1{
   font-weight: bolder;
 }
 
-.fa.fa-star{
+.star i{
   font-size: 30px;
   display: inline-block;
   width: auto;
@@ -44,7 +47,7 @@ h1{
   color: #2C3E50;
 }
 
-.top-main .star::before, .top-main .star::after{
+.black-star.star::before, .black-star.star::after{
   border-top: 4px solid #2C3E50;
 }
 
@@ -54,4 +57,17 @@ h1{
 
 .top-main [class*="col-"]{
   margin: 15px 0;
+}
+
+.middle-main p{
+  padding: 0 50px;
+}
+
+.gm-form input, .gm-form textarea{
+  border: 0;
+  border-bottom: 1px solid #ccc
+}
+
+.gm-form ::placeholder{
+  color: #2C3E50
 }
